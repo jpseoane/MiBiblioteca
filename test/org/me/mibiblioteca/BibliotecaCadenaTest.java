@@ -46,9 +46,7 @@ public class BibliotecaCadenaTest {
         String cad = " \t jUaN\t danIeL\t\t  pÉrEz  \t\t  ";        
         String expResult = "Juan Daniel Pérez";
         String result = BibliotecaCadena.aTitulo(cad);
-        assertEquals(expResult, result);        
-        // TODO review the generated test code and remove the default call to fail.
-        //fail("The test case is a prototype.");
+        assertEquals(expResult, result);                
     }
     
 }
